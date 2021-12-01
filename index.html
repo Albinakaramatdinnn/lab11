@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>variant 2 lab11</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+ <div class="login-page">
+    <div class="box">
+        <div class="left">
+            <h2>Welcome to LOREM</h2>
+            <h3>Create Account</h3>
+            <button type="button" class="register-btn">Sign up</button>
+        </div>
+        <div class="right">
+            <h3>Have an Account ?</h3>
+            <button type="button" class="login-btn">Sign in</button>
+        </div>
+        <div class="form">
+             <!-- Login form Start -->
+             <div class="login-form">
+                <h3>Sign in</h3>
+                <div class="form-group">
+                    <strong>Enter your username or email address</strong>
+                    <input type="text" placeholder="Username or email address" class="form-control">
+                </div>
+                <div class="form-group">
+                    <strong>Enter your Password</strong>
+                    <input type="password" placeholder="Password" class="form-control">
+                </div>
+                <button type="button" class="submit-btn">Sign in</button>
+                <p><a href="#" class="register-btn">Sign up</a> | <a href="#" class="lost-pass-btn">No Account ?</a></p>
+             </div>
+             <!-- Sig in form End -->
+
+             <!-- Sign up form Start -->
+             <div class="register-form form-hidden">
+                <h3>Sign up</h3>
+                <div class="form-group">
+                    <strong>User name</strong>
+                    <input type="text" placeholder="User name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <strong>Contact Number</strong>
+                    <input type="Number" placeholder="Contact Number" class="form-control">
+                </div>
+                <div class="form-group">
+                    <strong>Enter your username or email address</strong>
+                    <input type="text" placeholder="username or email address" class="form-control">
+                </div>
+                <div class="form-group">
+                    <strong>Enter your Password</strong>
+                    <input type="password" placeholder="Password" class="form-control">
+                </div>
+                
+                <button type="button" class="submit-btn">Sign up</button>
+                <p><a href="#" class="login-btn">Sign in</a> | <a href="#" class="lost-pass-btn">Lost Your Password ?</a></p>
+             </div>
+             <!-- Sign up form End -->
+
+             <!-- Lost Password form Start -->
+             <div class="lost-password-form form-hidden">
+                <h3>Lost Your Password ?</h3>
+                <h5>You will receive a link to create a new password via email.</h5>
+                
+                <div class="form-group">
+                    <input type="text" placeholder="Email Address*" class="form-control">
+                </div>
+                
+                
+                <button type="button" class="submit-btn">Reset Password</button>
+                <p><a href="#" class="login-btn">Sign in</a> | <a href="#" class="register-btn">Register</a></p>
+             </div>
+             <!-- Lost Password form End -->
+
+        </div>
+    </div>
+ </div>
+
+ <script src="java.js"></script>
+</body>
+</html>
